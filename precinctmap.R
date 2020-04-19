@@ -91,8 +91,8 @@ theme_map <- function(base_size = 9, base_family = "") {
 
 
 palette <- c("#56B4E9", "#009E73", "#E69F00", "#F0E442", "#0072B2")
-# extrafont::font_import(paths = "D:/Documents/fonts")
-extrafont::loadfonts(device = "win")
+# extrafont::font_import(paths = "C:/Users/libbe/Documents/Fonts")
+extrafont::loadfonts(device = "win", quiet = TRUE)
 # ggmap(atx_basemap)
 
 ggplot() +
