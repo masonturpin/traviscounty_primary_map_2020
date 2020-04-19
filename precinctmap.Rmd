@@ -2,7 +2,7 @@
 title: "Travis County 2020 Democratic Primary"
 author: "Mason Turpin"
 date: "3/8/2020"
-output: html_document
+output: github_document
 ---
 
 Load relevant libraries:

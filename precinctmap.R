@@ -93,8 +93,6 @@ theme_map <- function(base_size = 9, base_family = "") {
 palette <- c("#56B4E9", "#009E73", "#E69F00", "#F0E442", "#0072B2")
 # extrafont::font_import(paths = "D:/Documents/fonts")
 extrafont::loadfonts(device = "win")
-# register_google(key = "AIzaSyC1Ih93Ikq0gM828vy3t6sehUkMotQVvUo")
-# atx_basemap <- get_map(location = c(lon = -97.77, lat = 30.31), maptype = "roadmap", color = "bw")
 # ggmap(atx_basemap)
 
 ggplot() +
